@@ -308,8 +308,12 @@ namespace NewsABGN.UI
             ArticleForm articleForm = new ArticleForm(url);
             articleForm.ShowDialog();
         }
+
         #endregion
 
+        private void LblKeywordTItleAlt_MouseHover(object sender, EventArgs e)
+        {
 
+        }
     }
 }

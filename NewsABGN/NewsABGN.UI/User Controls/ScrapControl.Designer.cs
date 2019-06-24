@@ -58,9 +58,10 @@
             // 
             // lblDelete
             // 
+            this.lblDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDelete.BackColor = System.Drawing.Color.Transparent;
             this.lblDelete.Font = new System.Drawing.Font("Gulim", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblDelete.Location = new System.Drawing.Point(291, 0);
+            this.lblDelete.Location = new System.Drawing.Point(256, 0);
             this.lblDelete.Name = "lblDelete";
             this.lblDelete.Size = new System.Drawing.Size(28, 24);
             this.lblDelete.TabIndex = 3;
@@ -72,12 +73,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(150)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Controls.Add(this.lblDelete);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.lblPubDate);
             this.Name = "ScrapControl";
-            this.Size = new System.Drawing.Size(319, 88);
+            this.Size = new System.Drawing.Size(285, 88);
             this.DoubleClick += new System.EventHandler(this.ScrapControl_DoubleClick);
             this.ResumeLayout(false);
             this.PerformLayout();

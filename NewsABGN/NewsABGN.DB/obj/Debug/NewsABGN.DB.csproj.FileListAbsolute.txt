@@ -10,3 +10,15 @@ D:\C#\NewsScrapper\NewsABGN\NewsABGN\NewsABGN.DB\bin\Debug\EntityFramework.SqlSe
 D:\C#\NewsScrapper\NewsABGN\NewsABGN\NewsABGN.DB\obj\Debug\NewsABGN.DB.csproj.CopyComplete
 D:\C#\NewsScrapper\NewsABGN\NewsABGN\NewsABGN.DB\obj\Debug\NewsABGN.DB.dll
 D:\C#\NewsScrapper\NewsABGN\NewsABGN\NewsABGN.DB\obj\Debug\NewsABGN.DB.pdb
+D:\NewsABGN\NewsABGN\NewsABGN.DB\bin\Debug\NewsABGN.DB.dll.config
+D:\NewsABGN\NewsABGN\NewsABGN.DB\bin\Debug\NewsABGN.DB.dll
+D:\NewsABGN\NewsABGN\NewsABGN.DB\bin\Debug\NewsABGN.DB.pdb
+D:\NewsABGN\NewsABGN\NewsABGN.DB\bin\Debug\EntityFramework.dll
+D:\NewsABGN\NewsABGN\NewsABGN.DB\bin\Debug\EntityFramework.SqlServer.dll
+D:\NewsABGN\NewsABGN\NewsABGN.DB\bin\Debug\EntityFramework.xml
+D:\NewsABGN\NewsABGN\NewsABGN.DB\bin\Debug\EntityFramework.SqlServer.xml
+D:\NewsABGN\NewsABGN\NewsABGN.DB\obj\Debug\NewsABGN.DB.csprojAssemblyReference.cache
+D:\NewsABGN\NewsABGN\NewsABGN.DB\obj\Debug\NewsABGN.DB.csproj.CoreCompileInputs.cache
+D:\NewsABGN\NewsABGN\NewsABGN.DB\obj\Debug\NewsABGN.DB.csproj.CopyComplete
+D:\NewsABGN\NewsABGN\NewsABGN.DB\obj\Debug\NewsABGN.DB.dll
+D:\NewsABGN\NewsABGN\NewsABGN.DB\obj\Debug\NewsABGN.DB.pdb

@@ -36,18 +36,18 @@
             // lblSignInSuccess
             // 
             this.lblSignInSuccess.AutoSize = true;
-            this.lblSignInSuccess.Font = new System.Drawing.Font("Gulim", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblSignInSuccess.Location = new System.Drawing.Point(121, 13);
+            this.lblSignInSuccess.Font = new System.Drawing.Font("중간안상수체", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblSignInSuccess.Location = new System.Drawing.Point(151, 20);
             this.lblSignInSuccess.Name = "lblSignInSuccess";
-            this.lblSignInSuccess.Size = new System.Drawing.Size(135, 19);
+            this.lblSignInSuccess.Size = new System.Drawing.Size(100, 21);
             this.lblSignInSuccess.TabIndex = 0;
             this.lblSignInSuccess.Text = "님 환영합니다.";
             this.lblSignInSuccess.Visible = false;
             // 
             // lblSignInName
             // 
-            this.lblSignInName.Font = new System.Drawing.Font("Gulim", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblSignInName.Location = new System.Drawing.Point(3, 13);
+            this.lblSignInName.Font = new System.Drawing.Font("중간안상수체", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblSignInName.Location = new System.Drawing.Point(23, 20);
             this.lblSignInName.Name = "lblSignInName";
             this.lblSignInName.Size = new System.Drawing.Size(111, 19);
             this.lblSignInName.TabIndex = 0;
@@ -57,7 +57,8 @@
             // 
             // btnSignIn
             // 
-            this.btnSignIn.Location = new System.Drawing.Point(290, 7);
+            this.btnSignIn.Font = new System.Drawing.Font("가는안상수체", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnSignIn.Location = new System.Drawing.Point(286, 12);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(73, 36);
             this.btnSignIn.TabIndex = 1;

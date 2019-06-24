@@ -63,10 +63,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Gulim", 13F);
-            this.label2.Location = new System.Drawing.Point(49, 81);
+            this.label2.Font = new System.Drawing.Font("중간안상수체", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Location = new System.Drawing.Point(67, 80);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 18);
+            this.label2.Size = new System.Drawing.Size(44, 19);
             this.label2.TabIndex = 5;
             this.label2.Text = "아이디";
             // 
@@ -92,15 +92,16 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Gulim", 13F);
-            this.label3.Location = new System.Drawing.Point(31, 119);
+            this.label3.Font = new System.Drawing.Font("중간안상수체", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Location = new System.Drawing.Point(58, 118);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 18);
+            this.label3.Size = new System.Drawing.Size(53, 19);
             this.label3.TabIndex = 7;
             this.label3.Text = "비밀번호";
             // 
             // btnSignIn
             // 
+            this.btnSignIn.Font = new System.Drawing.Font("중간안상수체", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnSignIn.Location = new System.Drawing.Point(154, 164);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(73, 36);
@@ -111,6 +112,7 @@
             // 
             // btnSignUp
             // 
+            this.btnSignUp.Font = new System.Drawing.Font("중간안상수체", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnSignUp.Location = new System.Drawing.Point(38, 164);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(73, 36);
