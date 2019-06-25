@@ -25,6 +25,9 @@ namespace NewsABGN.Logic
             myProcessStartInfo.UseShellExecute = false;
             myProcessStartInfo.RedirectStandardOutput = true;
 
+            // NoShow Dos Window Test
+            myProcessStartInfo.CreateNoWindow = true;
+
             // start python app with arguments  
             myProcessStartInfo.Arguments = myPythonApp + " " + url;
 
