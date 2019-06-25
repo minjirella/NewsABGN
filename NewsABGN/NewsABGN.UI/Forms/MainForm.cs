@@ -313,7 +313,14 @@ namespace NewsABGN.UI
 
         private void LblKeywordTItleAlt_MouseHover(object sender, EventArgs e)
         {
+            var label = (Label)sender;
+            label.Font = new Font(label.Font, FontStyle.Bold);
+        }
 
+        private void LblKeywordTItleAlt_MouseLeave(object sender, EventArgs e)
+        {
+            var label = (Label)sender;
+            label.Font = new Font(label.Font, FontStyle.Regular);
         }
     }
 }

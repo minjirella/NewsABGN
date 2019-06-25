@@ -215,6 +215,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::NewsABGN.UI.Properties.Resources.refresh;
             this.pictureBox1.Location = new System.Drawing.Point(167, 216);
             this.pictureBox1.Name = "pictureBox1";

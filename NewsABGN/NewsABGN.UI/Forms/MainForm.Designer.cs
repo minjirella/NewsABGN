@@ -57,6 +57,7 @@
             this.lblKeywordTItleAlt.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lblKeywordTItleAlt.Visible = false;
             this.lblKeywordTItleAlt.Click += new System.EventHandler(this.LblKeywordTItleAlt_Click);
+            this.lblKeywordTItleAlt.MouseLeave += new System.EventHandler(this.LblKeywordTItleAlt_MouseLeave);
             this.lblKeywordTItleAlt.MouseHover += new System.EventHandler(this.LblKeywordTItleAlt_MouseHover);
             // 
             // lblKeywordTitle

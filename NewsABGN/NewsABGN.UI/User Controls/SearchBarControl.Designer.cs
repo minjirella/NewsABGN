@@ -44,7 +44,7 @@
             this.txbKeyword.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txbKeyword.Location = new System.Drawing.Point(3, 2);
             this.txbKeyword.Name = "txbKeyword";
-            this.txbKeyword.Size = new System.Drawing.Size(507, 35);
+            this.txbKeyword.Size = new System.Drawing.Size(416, 35);
             this.txbKeyword.TabIndex = 0;
             this.txbKeyword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxbKeyword_KeyDown);
             // 
@@ -58,14 +58,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(609, 40);
+            this.panel1.Size = new System.Drawing.Size(518, 40);
             this.panel1.TabIndex = 1;
             // 
             // ptbAddKeyword
             // 
             this.ptbAddKeyword.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ptbAddKeyword.Image = global::NewsABGN.UI.Properties.Resources.output_onlinepngtools;
-            this.ptbAddKeyword.Location = new System.Drawing.Point(563, 5);
+            this.ptbAddKeyword.Location = new System.Drawing.Point(472, 5);
             this.ptbAddKeyword.Name = "ptbAddKeyword";
             this.ptbAddKeyword.Size = new System.Drawing.Size(43, 32);
             this.ptbAddKeyword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -77,7 +77,7 @@
             // 
             this.ptbSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ptbSearch.Image = global::NewsABGN.UI.Properties.Resources.cat_search;
-            this.ptbSearch.Location = new System.Drawing.Point(514, 5);
+            this.ptbSearch.Location = new System.Drawing.Point(423, 5);
             this.ptbSearch.Name = "ptbSearch";
             this.ptbSearch.Size = new System.Drawing.Size(43, 32);
             this.ptbSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -92,7 +92,7 @@
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "SearchBarControl";
-            this.Size = new System.Drawing.Size(609, 40);
+            this.Size = new System.Drawing.Size(518, 40);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbAddKeyword)).EndInit();

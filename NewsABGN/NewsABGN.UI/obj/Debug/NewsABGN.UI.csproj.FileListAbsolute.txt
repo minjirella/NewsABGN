@@ -61,7 +61,6 @@ D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\NewsABGN.DB.dll
 D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\NewsABGN.Logic.dll
 D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\HtmlAgilityPack.dll
 D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\Newtonsoft.Json.dll
-D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\IronPython.dll
 D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\NewsABGN.DB.pdb
 D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\NewsABGN.DB.dll.config
 D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\NewsABGN.Logic.pdb
@@ -74,7 +73,6 @@ D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\Microsoft.Scripting.Metadata.xml
 D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\HtmlAgilityPack.pdb
 D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\HtmlAgilityPack.xml
 D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\Newtonsoft.Json.xml
-D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\IronPython.xml
 D:\NewsABGN\NewsABGN\NewsABGN.UI\obj\Debug\NewsABGN.UI.csprojAssemblyReference.cache
 D:\NewsABGN\NewsABGN\NewsABGN.UI\obj\Debug\NewsABGN.UI.ArticleForm.resources
 D:\NewsABGN\NewsABGN\NewsABGN.UI\obj\Debug\NewsABGN.UI.MainForm.resources
@@ -96,3 +94,7 @@ D:\NewsABGN\NewsABGN\NewsABGN.UI\obj\Debug\NewsABGN.UI.User_Controls.UserKeyword
 D:\NewsABGN\NewsABGN\NewsABGN.UI\obj\Debug\NewsABGN.UI.csproj.GenerateResource.cache
 D:\NewsABGN\NewsABGN\NewsABGN.UI\obj\Debug\NewsABGN.UI.csproj.CoreCompileInputs.cache
 D:\NewsABGN\NewsABGN\NewsABGN.UI\obj\Debug\NewsABGN.UI.csproj.CopyComplete
+D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\NewsABGN.UI.exe.manifest
+D:\NewsABGN\NewsABGN\NewsABGN.UI\bin\Debug\NewsABGN.UI.application
+D:\NewsABGN\NewsABGN\NewsABGN.UI\obj\Debug\NewsABGN.UI.exe.manifest
+D:\NewsABGN\NewsABGN\NewsABGN.UI\obj\Debug\NewsABGN.UI.application

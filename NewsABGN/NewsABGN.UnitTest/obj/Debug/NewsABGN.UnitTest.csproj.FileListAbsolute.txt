@@ -72,11 +72,3 @@ D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\obj\Debug\NewsABGN.UnitTest.csproj.CoreCo
 D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\obj\Debug\NewsABGN.UnitTest.csproj.CopyComplete
 D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\obj\Debug\NewsABGN.UnitTest.dll
 D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\obj\Debug\NewsABGN.UnitTest.pdb
-D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\bin\Debug\Microsoft.Scripting.dll
-D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\bin\Debug\IronPython.dll
-D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\bin\Debug\Microsoft.Dynamic.dll
-D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\bin\Debug\Microsoft.Scripting.Metadata.dll
-D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\bin\Debug\Microsoft.Scripting.xml
-D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\bin\Debug\IronPython.xml
-D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\bin\Debug\Microsoft.Dynamic.xml
-D:\NewsABGN\NewsABGN\NewsABGN.UnitTest\bin\Debug\Microsoft.Scripting.Metadata.xml
