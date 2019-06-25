@@ -38,7 +38,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("가는안상수체", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(66, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(138, 33);
@@ -47,10 +49,12 @@
             // 
             // picbExit
             // 
+            this.picbExit.AccessibleName = "";
             this.picbExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.picbExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.picbExit.BackColor = System.Drawing.Color.Transparent;
+            this.picbExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picbExit.Image = global::NewsABGN.UI.Properties.Resources.exit;
-            this.picbExit.Location = new System.Drawing.Point(1219, 4);
+            this.picbExit.Location = new System.Drawing.Point(1009, 4);
             this.picbExit.Name = "picbExit";
             this.picbExit.Size = new System.Drawing.Size(54, 50);
             this.picbExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -72,12 +76,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Black;
             this.Controls.Add(this.picbExit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "TitleBarControl";
-            this.Size = new System.Drawing.Size(1276, 60);
+            this.Size = new System.Drawing.Size(1066, 60);
             ((System.ComponentModel.ISupportInitialize)(this.picbExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

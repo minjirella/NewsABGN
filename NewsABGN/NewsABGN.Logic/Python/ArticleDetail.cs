@@ -13,10 +13,10 @@ namespace NewsABGN.Logic
         public Dictionary<string, string> FillMainContent(string url)
         {
             // full path of python interpreter 
-            string python = @"C:\python37\python.exe";
+            string python = @"..\..\..\NewsABGN.Python\venv\Scripts\python.exe";
 
             // python app to call 
-            string myPythonApp = @"C:\Users\kccistc\PycharmProjects\newsProject\news.py";
+            string myPythonApp = @"..\..\..\NewsABGN.Python\NewspaperModule.py";
 
             // Create new process start info 
             ProcessStartInfo myProcessStartInfo = new ProcessStartInfo(python);

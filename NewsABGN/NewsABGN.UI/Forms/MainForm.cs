@@ -103,6 +103,7 @@ namespace NewsABGN.UI
         private bool _loginState = false;
         private int _memberId;
         private string _memberName;
+       
         // title bar '로그인' button clicked
         private void UscSignInPanel_BtnSignInClick(object sender, SignInPanel.BtnSignInClickEventArgs e)
         {
@@ -111,6 +112,7 @@ namespace NewsABGN.UI
             else    // 로그아웃
                 Toggle(_memberId, _memberName);
         }
+        
         // popup '로그인' succeed
         private void UscSignInControl_BtnSignInClick(object sender, SignInControl.BtnSignInClickEventArgs e)
         {
@@ -118,6 +120,7 @@ namespace NewsABGN.UI
             _memberName = e.Member.Name;
             Toggle(_memberId, _memberName);
         }
+
         private void Toggle(int memberId, string name)
         {
             // close login control if open
@@ -143,8 +146,8 @@ namespace NewsABGN.UI
                     article.Refresh();
                 }
                 FillUserScraps(memberId);
-            }  // 로그 아웃
-            else
+            }
+            else // 로그 아웃
             {
                 uscSignInPanel.SignOut();
                 uscUserKeywordPanelControl.EmptyKeywords();

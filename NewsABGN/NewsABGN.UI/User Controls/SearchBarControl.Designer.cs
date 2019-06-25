@@ -51,7 +51,7 @@
             // panel1
             // 
             this.panel1.AutoSize = true;
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(207)))), ((int)(((byte)(93)))));
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.ptbAddKeyword);
             this.panel1.Controls.Add(this.ptbSearch);
             this.panel1.Controls.Add(this.txbKeyword);
@@ -64,6 +64,7 @@
             // ptbAddKeyword
             // 
             this.ptbAddKeyword.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ptbAddKeyword.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ptbAddKeyword.Image = global::NewsABGN.UI.Properties.Resources.output_onlinepngtools;
             this.ptbAddKeyword.Location = new System.Drawing.Point(472, 5);
             this.ptbAddKeyword.Name = "ptbAddKeyword";
@@ -76,6 +77,7 @@
             // ptbSearch
             // 
             this.ptbSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ptbSearch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ptbSearch.Image = global::NewsABGN.UI.Properties.Resources.cat_search;
             this.ptbSearch.Location = new System.Drawing.Point(423, 5);
             this.ptbSearch.Name = "ptbSearch";
