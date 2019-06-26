@@ -2,9 +2,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>cff30f44-8080-46bc-a788-6a13219d8d04</ProjectGuid>
+    <ProjectGuid>7bf283be-64fb-470c-ae78-649ba341f260</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>NewspaperModule.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -12,7 +13,6 @@
     <Name>NewsABGN.Python</Name>
     <RootNamespace>NewsABGN.Python</RootNamespace>
     <InterpreterId>MSBuild|venv|$(MSBuildProjectFullPath)</InterpreterId>
-    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,9 +23,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="NewspaperModule.py" />
-  </ItemGroup>
-  <ItemGroup>
     <Interpreter Include="venv\">
       <Id>venv</Id>
       <Version>3.7</Version>
@@ -35,6 +32,14 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NewspaperModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WordCloudModule.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

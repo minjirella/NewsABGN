@@ -12,22 +12,6 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\kccistc\Desktop\ABGN1.0\</PublishUrl>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>2</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <PublishWizardCompleted>true</PublishWizardCompleted>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,18 +32,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestCertificateThumbprint>3A1393C67713B628B4C9935FF972B3A4DB51BDE1</ManifestCertificateThumbprint>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestKeyFile>NewsABGN.UI_TemporaryKey.pfx</ManifestKeyFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -92,6 +64,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="classes\GradientPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\ArticleForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +165,12 @@
     <Compile Include="User Controls\UserKeywordListControl.Designer.cs">
       <DependentUpon>UserKeywordListControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Controls\WordCloudControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\WordCloudControl.Designer.cs">
+      <DependentUpon>WordCloudControl.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Forms\ArticleForm.resx">
       <DependentUpon>ArticleForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -248,7 +229,9 @@
     <EmbeddedResource Include="User Controls\UserKeywordListControl.resx">
       <DependentUpon>UserKeywordListControl.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="NewsABGN.UI_TemporaryKey.pfx" />
+    <EmbeddedResource Include="User Controls\WordCloudControl.resx">
+      <DependentUpon>WordCloudControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -307,19 +290,10 @@
     <None Include="resources\x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
+    <None Include="resources\cat_exit.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="resources\ayong.jpg" />
+    <None Include="resources\hqdefault.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\didi.jpg" />

@@ -3,7 +3,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Text;
+using System.Threading.Tasks;
+
+using Microsoft.Scripting;
+using Microsoft.Scripting.Hosting;
+
+using IronPython;
+using IronPython.Hosting;
+using IronPython.Runtime;
+using IronPython.Modules;
 
 namespace NewsABGN.Logic
 {
@@ -29,7 +39,7 @@ namespace NewsABGN.Logic
             return realTimeKeywordList;
         }
 
-        /*public Dictionary<string, string> GetArticleContents(string url)
+        public Dictionary<string, string> GetArticleContents(string url)
         {
             Dictionary<string, string> contents = new Dictionary<string, string>();
 
@@ -53,7 +63,7 @@ namespace NewsABGN.Logic
             }
 
             return contents;
-        }*/
+        }
        
     }
 }
