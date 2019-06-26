@@ -103,16 +103,16 @@ namespace NewsABGN.UI
         private bool _loginState = false;
         private int _memberId;
         private string _memberName;
-       
+
         // title bar '로그인' button clicked
-        private void UscSignInPanel_BtnSignInClick(object sender, SignInPanel.BtnSignInClickEventArgs e)
+        private void UscrTitleBar_BtnSignInClick(object sender, User_Controls.TitleBar.TitleBarControl.BtnSignInClickEventArgs e)
         {
             if (!_loginState) // 로그인
                 uscSignInControl.Visible = !uscSignInControl.Visible;
             else    // 로그아웃
                 Toggle(_memberId, _memberName);
         }
-        
+
         // popup '로그인' succeed
         private void UscSignInControl_BtnSignInClick(object sender, SignInControl.BtnSignInClickEventArgs e)
         {
@@ -153,6 +153,7 @@ namespace NewsABGN.UI
             {
                 uscrTitleBar.Logged_Out();
                 uscUserKeywordPanelControl.EmptyKeywords();
+                uscWordCloud.EmptyWords();
                 if (uscUserKeywordPanelControl.Visible)
                     SwapKeywordPanels();
                 foreach (var article in _newsResults)
@@ -336,11 +337,6 @@ namespace NewsABGN.UI
         {
             var label = (Label)sender;
             label.Font = new Font(label.Font, FontStyle.Regular);
-        }
-
-        private void UscrTitleBar_BtnSignInClick(object sender, User_Controls.TitleBar.TitleBarControl.BtnSignInClickEventArgs e)
-        {
-            uscSignInControl.Visible = !uscSignInControl.Visible;
         }
     }
 }

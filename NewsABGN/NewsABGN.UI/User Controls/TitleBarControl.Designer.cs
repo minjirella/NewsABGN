@@ -46,21 +46,22 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(66, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 33);
+            this.label1.Size = new System.Drawing.Size(134, 33);
             this.label1.TabIndex = 1;
-            this.label1.Text = "뉴스 안볼꺼냥??";
+            this.label1.Text = "뉴스 안볼꼬냥??";
             // 
             // btnSignIn
             // 
             this.btnSignIn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSignIn.BackColor = System.Drawing.Color.White;
+            this.btnSignIn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSignIn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSignIn.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnSignIn.FlatAppearance.BorderSize = 0;
             this.btnSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSignIn.Font = new System.Drawing.Font("가는안상수체", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnSignIn.ForeColor = System.Drawing.Color.Black;
-            this.btnSignIn.Location = new System.Drawing.Point(1124, 11);
+            this.btnSignIn.Location = new System.Drawing.Point(1127, 18);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(73, 36);
             this.btnSignIn.TabIndex = 5;
@@ -73,7 +74,7 @@
             this.lblSignInName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSignInName.Font = new System.Drawing.Font("중간안상수체", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblSignInName.ForeColor = System.Drawing.Color.White;
-            this.lblSignInName.Location = new System.Drawing.Point(861, 19);
+            this.lblSignInName.Location = new System.Drawing.Point(885, 25);
             this.lblSignInName.Name = "lblSignInName";
             this.lblSignInName.Size = new System.Drawing.Size(111, 19);
             this.lblSignInName.TabIndex = 3;
@@ -87,11 +88,11 @@
             this.lblSignInSuccess.AutoSize = true;
             this.lblSignInSuccess.Font = new System.Drawing.Font("중간안상수체", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblSignInSuccess.ForeColor = System.Drawing.Color.White;
-            this.lblSignInSuccess.Location = new System.Drawing.Point(990, 19);
+            this.lblSignInSuccess.Location = new System.Drawing.Point(1002, 25);
             this.lblSignInSuccess.Name = "lblSignInSuccess";
-            this.lblSignInSuccess.Size = new System.Drawing.Size(100, 21);
+            this.lblSignInSuccess.Size = new System.Drawing.Size(94, 21);
             this.lblSignInSuccess.TabIndex = 4;
-            this.lblSignInSuccess.Text = "님 환영합니다.";
+            this.lblSignInSuccess.Text = "님 반갑다냥~";
             this.lblSignInSuccess.Visible = false;
             // 
             // picbExit
@@ -101,7 +102,7 @@
             this.picbExit.BackColor = System.Drawing.Color.Transparent;
             this.picbExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picbExit.Image = global::NewsABGN.UI.Properties.Resources.cat_exit1;
-            this.picbExit.Location = new System.Drawing.Point(1206, 2);
+            this.picbExit.Location = new System.Drawing.Point(1206, 5);
             this.picbExit.Name = "picbExit";
             this.picbExit.Size = new System.Drawing.Size(54, 50);
             this.picbExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

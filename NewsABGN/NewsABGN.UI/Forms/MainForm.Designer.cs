@@ -33,15 +33,15 @@
             this.lblLoginWarning = new System.Windows.Forms.Label();
             this.lblScrapTitle = new System.Windows.Forms.Label();
             this.lblLoginWarningBig = new System.Windows.Forms.Label();
+            this.pcbDidi = new System.Windows.Forms.PictureBox();
+            this.uscSignInControl = new NewsABGN.UI.User_Controls.SignInControl();
             this.uscrTitleBar = new NewsABGN.UI.User_Controls.TitleBar.TitleBarControl();
             this.uscWordCloud = new NewsABGN.UI.User_Controls.WordCloudControl();
-            this.uscSignInControl = new NewsABGN.UI.User_Controls.SignInControl();
             this.uscScrapListControl = new NewsABGN.UI.User_Controls.ScrapListControl();
             this.uscRealTimeKeywordPanelControl = new NewsABGN.UI.User_Controls.RealTimeKeywordPanelControl();
             this.uscUserKeywordPanelControl = new NewsABGN.UI.User_Controls.UserKeywordListControl();
             this.uscSearchBar = new NewsABGN.UI.User_Controls.SearchBarControl();
             this.uscResultPanel = new NewsABGN.UI.User_Controls.Result.ArticleListControl();
-            this.pcbDidi = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pcbDidi)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,7 +71,7 @@
             this.lblKeywordTitle.Location = new System.Drawing.Point(7, 61);
             this.lblKeywordTitle.Name = "lblKeywordTitle";
             this.lblKeywordTitle.Padding = new System.Windows.Forms.Padding(5);
-            this.lblKeywordTitle.Size = new System.Drawing.Size(265, 633);
+            this.lblKeywordTitle.Size = new System.Drawing.Size(265, 303);
             this.lblKeywordTitle.TabIndex = 2;
             this.lblKeywordTitle.Text = "실시간 검색어";
             // 
@@ -111,6 +111,30 @@
             this.lblLoginWarningBig.TabIndex = 3;
             this.lblLoginWarningBig.Text = "로그인을 신속하게 진행해주세요";
             // 
+            // pcbDidi
+            // 
+            this.pcbDidi.Image = global::NewsABGN.UI.Properties.Resources.didi;
+            this.pcbDidi.Location = new System.Drawing.Point(935, 131);
+            this.pcbDidi.Name = "pcbDidi";
+            this.pcbDidi.Size = new System.Drawing.Size(316, 282);
+            this.pcbDidi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbDidi.TabIndex = 6;
+            this.pcbDidi.TabStop = false;
+            // 
+            // uscSignInControl
+            // 
+            this.uscSignInControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.uscSignInControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uscSignInControl.Location = new System.Drawing.Point(935, 55);
+            this.uscSignInControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.uscSignInControl.MaximumSize = new System.Drawing.Size(265, 220);
+            this.uscSignInControl.MinimumSize = new System.Drawing.Size(265, 220);
+            this.uscSignInControl.Name = "uscSignInControl";
+            this.uscSignInControl.Size = new System.Drawing.Size(265, 220);
+            this.uscSignInControl.TabIndex = 5;
+            this.uscSignInControl.Visible = false;
+            this.uscSignInControl.BtnSignInClick += new System.EventHandler<NewsABGN.UI.User_Controls.SignInControl.BtnSignInClickEventArgs>(this.UscSignInControl_BtnSignInClick);
+            // 
             // uscrTitleBar
             // 
             this.uscrTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
@@ -128,25 +152,11 @@
             // uscWordCloud
             // 
             this.uscWordCloud.BackColor = System.Drawing.Color.White;
-            this.uscWordCloud.Location = new System.Drawing.Point(13, 371);
+            this.uscWordCloud.Location = new System.Drawing.Point(7, 368);
             this.uscWordCloud.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.uscWordCloud.Name = "uscWordCloud";
-            this.uscWordCloud.Size = new System.Drawing.Size(253, 316);
+            this.uscWordCloud.Size = new System.Drawing.Size(265, 326);
             this.uscWordCloud.TabIndex = 7;
-            // 
-            // uscSignInControl
-            // 
-            this.uscSignInControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.uscSignInControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.uscSignInControl.Location = new System.Drawing.Point(923, 49);
-            this.uscSignInControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.uscSignInControl.MaximumSize = new System.Drawing.Size(265, 220);
-            this.uscSignInControl.MinimumSize = new System.Drawing.Size(265, 220);
-            this.uscSignInControl.Name = "uscSignInControl";
-            this.uscSignInControl.Size = new System.Drawing.Size(265, 220);
-            this.uscSignInControl.TabIndex = 5;
-            this.uscSignInControl.Visible = false;
-            this.uscSignInControl.BtnSignInClick += new System.EventHandler<NewsABGN.UI.User_Controls.SignInControl.BtnSignInClickEventArgs>(this.UscSignInControl_BtnSignInClick);
             // 
             // uscScrapListControl
             // 
@@ -161,7 +171,7 @@
             // uscRealTimeKeywordPanelControl
             // 
             this.uscRealTimeKeywordPanelControl.BackColor = System.Drawing.Color.White;
-            this.uscRealTimeKeywordPanelControl.Location = new System.Drawing.Point(13, 106);
+            this.uscRealTimeKeywordPanelControl.Location = new System.Drawing.Point(13, 104);
             this.uscRealTimeKeywordPanelControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uscRealTimeKeywordPanelControl.Name = "uscRealTimeKeywordPanelControl";
             this.uscRealTimeKeywordPanelControl.Size = new System.Drawing.Size(253, 258);
@@ -174,7 +184,7 @@
             this.uscUserKeywordPanelControl.Location = new System.Drawing.Point(17, 107);
             this.uscUserKeywordPanelControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uscUserKeywordPanelControl.Name = "uscUserKeywordPanelControl";
-            this.uscUserKeywordPanelControl.Size = new System.Drawing.Size(245, 258);
+            this.uscUserKeywordPanelControl.Size = new System.Drawing.Size(245, 255);
             this.uscUserKeywordPanelControl.TabIndex = 1;
             this.uscUserKeywordPanelControl.Visible = false;
             // 
@@ -198,25 +208,15 @@
             this.uscResultPanel.Size = new System.Drawing.Size(646, 587);
             this.uscResultPanel.TabIndex = 2;
             // 
-            // pcbDidi
-            // 
-            this.pcbDidi.Image = global::NewsABGN.UI.Properties.Resources.didi;
-            this.pcbDidi.Location = new System.Drawing.Point(935, 131);
-            this.pcbDidi.Name = "pcbDidi";
-            this.pcbDidi.Size = new System.Drawing.Size(316, 282);
-            this.pcbDidi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pcbDidi.TabIndex = 6;
-            this.pcbDidi.TabStop = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(1263, 707);
+            this.Controls.Add(this.uscSignInControl);
             this.Controls.Add(this.uscrTitleBar);
             this.Controls.Add(this.uscWordCloud);
-            this.Controls.Add(this.uscSignInControl);
             this.Controls.Add(this.pcbDidi);
             this.Controls.Add(this.uscScrapListControl);
             this.Controls.Add(this.uscRealTimeKeywordPanelControl);

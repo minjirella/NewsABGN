@@ -37,7 +37,7 @@
             this.flpResultPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flpResultPanel.Location = new System.Drawing.Point(0, 0);
             this.flpResultPanel.Name = "flpResultPanel";
-            this.flpResultPanel.Size = new System.Drawing.Size(687, 579);
+            this.flpResultPanel.Size = new System.Drawing.Size(665, 579);
             this.flpResultPanel.TabIndex = 0;
             this.flpResultPanel.WrapContents = false;
             // 
@@ -48,7 +48,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(150)))));
             this.Controls.Add(this.flpResultPanel);
             this.Name = "ArticleListControl";
-            this.Size = new System.Drawing.Size(678, 579);
+            this.Size = new System.Drawing.Size(628, 579);
             this.ResumeLayout(false);
 
         }

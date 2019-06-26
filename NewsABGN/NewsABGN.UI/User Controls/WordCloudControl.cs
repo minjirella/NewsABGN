@@ -19,9 +19,10 @@ namespace NewsABGN.UI.User_Controls
 
         public void FillCloud(string words)
         {
-            var wordList = words.Trim().Substring(1, words.Length - 4).Replace("(", "").Split(')').ToList();
-            wordList.Reverse();
-            var cloud = "";
+            ////var wordList = words.Trim().Substring(1, words.Length - 4).Replace("(", "").Split(')').ToList();
+            ////wordList.Reverse();
+
+            //var cloud = ;
             //for(int i=0; i < wordList.Count; i++)
             //{
             //    if (wordList[i] == "]")
@@ -34,7 +35,25 @@ namespace NewsABGN.UI.User_Controls
             //    cloud += wordList[i] + "\r\n";
             //}
 
-            lblWords.Text = words.Trim().Substring(1, words.Length - 4).Replace("(", "").Replace("), ", "\r\n").Replace(")", "").Replace(",", "   ");
+            var wordListTmp = words.Trim().Substring(1, words.Length - 4).Replace("(", "").Replace("), ", "|").Replace(")","").Split('|');
+
+            foreach (var word in wordListTmp.Reverse())
+            {
+                var NewWord = word.Replace(", ", "      ");
+                Label wordLabel = new Label();
+                wordLabel.Width = 200;
+                //wordLabel.폰트
+                wordLabel.Text = NewWord;
+                flpWordCloudList.Controls.Add(wordLabel);
+            }
+
+            //For Test
+            //MessageBox.Show(words.Trim().Substring(1, words.Length - 4).Replace("(", "").Replace("), ", "|"));
+        }
+
+        public void EmptyWords()
+        {
+            flpWordCloudList.Controls.Clear();
         }
     }
 }

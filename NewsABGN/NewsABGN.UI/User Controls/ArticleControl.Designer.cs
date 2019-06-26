@@ -69,7 +69,7 @@
             this.label1.BackColor = System.Drawing.Color.Gray;
             this.label1.Location = new System.Drawing.Point(17, 162);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(580, 1);
+            this.label1.Size = new System.Drawing.Size(605, 1);
             this.label1.TabIndex = 2;
             // 
             // ptbScrap
@@ -95,7 +95,7 @@
             this.Controls.Add(this.lblContents);
             this.Controls.Add(this.lblTitle);
             this.Name = "ArticleControl";
-            this.Size = new System.Drawing.Size(603, 172);
+            this.Size = new System.Drawing.Size(625, 172);
             ((System.ComponentModel.ISupportInitialize)(this.ptbScrap)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
