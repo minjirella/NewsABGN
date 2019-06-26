@@ -40,6 +40,9 @@
             this.uscUserKeywordPanelControl = new NewsABGN.UI.User_Controls.UserKeywordListControl();
             this.uscSearchBar = new NewsABGN.UI.User_Controls.SearchBarControl();
             this.uscResultPanel = new NewsABGN.UI.User_Controls.Result.ArticleListControl();
+            this.pcbDidi = new System.Windows.Forms.PictureBox();
+            this.lblLoginWarningBig = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbDidi)).BeginInit();
             this.SuspendLayout();
             // 
             // lblKeywordTItleAlt
@@ -75,13 +78,14 @@
             // lblLoginWarning
             // 
             this.lblLoginWarning.AutoSize = true;
-            this.lblLoginWarning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblLoginWarning.Font = new System.Drawing.Font("GungsuhChe", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblLoginWarning.Location = new System.Drawing.Point(959, 245);
+            this.lblLoginWarning.BackColor = System.Drawing.Color.White;
+            this.lblLoginWarning.Font = new System.Drawing.Font("가는안상수체", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblLoginWarning.ForeColor = System.Drawing.Color.Peru;
+            this.lblLoginWarning.Location = new System.Drawing.Point(945, 417);
             this.lblLoginWarning.Name = "lblLoginWarning";
-            this.lblLoginWarning.Size = new System.Drawing.Size(230, 32);
+            this.lblLoginWarning.Size = new System.Drawing.Size(287, 21);
             this.lblLoginWarning.TabIndex = 3;
-            this.lblLoginWarning.Text = "로그인 해라냥";
+            this.lblLoginWarning.Text = "스크랩기능을 사용하는 것은 행복하지만 어려움도 많아요";
             // 
             // lblScrapTitle
             // 
@@ -160,7 +164,7 @@
             this.uscUserKeywordPanelControl.BackColor = System.Drawing.Color.White;
             this.uscUserKeywordPanelControl.Location = new System.Drawing.Point(17, 107);
             this.uscUserKeywordPanelControl.Name = "uscUserKeywordPanelControl";
-            this.uscUserKeywordPanelControl.Size = new System.Drawing.Size(236, 588);
+            this.uscUserKeywordPanelControl.Size = new System.Drawing.Size(245, 588);
             this.uscUserKeywordPanelControl.TabIndex = 1;
             this.uscUserKeywordPanelControl.Visible = false;
             // 
@@ -184,6 +188,28 @@
             this.uscResultPanel.Size = new System.Drawing.Size(646, 587);
             this.uscResultPanel.TabIndex = 2;
             // 
+            // pcbDidi
+            // 
+            this.pcbDidi.Image = global::NewsABGN.UI.Properties.Resources.didi;
+            this.pcbDidi.Location = new System.Drawing.Point(935, 155);
+            this.pcbDidi.Name = "pcbDidi";
+            this.pcbDidi.Size = new System.Drawing.Size(316, 259);
+            this.pcbDidi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbDidi.TabIndex = 6;
+            this.pcbDidi.TabStop = false;
+            // 
+            // lblLoginWarningBig
+            // 
+            this.lblLoginWarningBig.AutoSize = true;
+            this.lblLoginWarningBig.BackColor = System.Drawing.Color.White;
+            this.lblLoginWarningBig.Font = new System.Drawing.Font("중간안상수체", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblLoginWarningBig.ForeColor = System.Drawing.Color.Peru;
+            this.lblLoginWarningBig.Location = new System.Drawing.Point(966, 440);
+            this.lblLoginWarningBig.Name = "lblLoginWarningBig";
+            this.lblLoginWarningBig.Size = new System.Drawing.Size(244, 27);
+            this.lblLoginWarningBig.TabIndex = 3;
+            this.lblLoginWarningBig.Text = "로그인을 신속하게 진행해주세요";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -191,6 +217,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(1263, 707);
             this.Controls.Add(this.uscSignInControl);
+            this.Controls.Add(this.pcbDidi);
             this.Controls.Add(this.uscScrapListControl);
             this.Controls.Add(this.uscRealTimeKeywordPanelControl);
             this.Controls.Add(this.uscSignInPanel);
@@ -199,6 +226,7 @@
             this.Controls.Add(this.uscUserKeywordPanelControl);
             this.Controls.Add(this.lblKeywordTitle);
             this.Controls.Add(this.uscSearchBar);
+            this.Controls.Add(this.lblLoginWarningBig);
             this.Controls.Add(this.lblLoginWarning);
             this.Controls.Add(this.lblScrapTitle);
             this.Controls.Add(this.uscResultPanel);
@@ -209,6 +237,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "News An Bol Ggo Nyang ?_?";
+            ((System.ComponentModel.ISupportInitialize)(this.pcbDidi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -228,5 +257,7 @@
         private User_Controls.ScrapListControl uscScrapListControl;
         private System.Windows.Forms.Label lblScrapTitle;
         private System.Windows.Forms.Label lblLoginWarning;
+        private System.Windows.Forms.PictureBox pcbDidi;
+        private System.Windows.Forms.Label lblLoginWarningBig;
     }
 }

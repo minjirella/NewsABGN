@@ -35,9 +35,9 @@
             // 
             this.flpKeywordList.AutoScroll = true;
             this.flpKeywordList.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flpKeywordList.Location = new System.Drawing.Point(10, 3);
+            this.flpKeywordList.Location = new System.Drawing.Point(3, 3);
             this.flpKeywordList.Name = "flpKeywordList";
-            this.flpKeywordList.Size = new System.Drawing.Size(244, 496);
+            this.flpKeywordList.Size = new System.Drawing.Size(280, 496);
             this.flpKeywordList.TabIndex = 0;
             this.flpKeywordList.WrapContents = false;
             // 

@@ -128,7 +128,9 @@ namespace NewsABGN.UI
                 uscSignInControl.Visible = _loginState;
 
             // non signed-in contents
+            pcbDidi.Visible = _loginState;
             lblLoginWarning.Visible = _loginState;
+            lblLoginWarningBig.Visible = _loginState;
 
             // logged in state
             _loginState = !_loginState;
@@ -162,8 +164,9 @@ namespace NewsABGN.UI
             }
             lblKeywordTItleAlt.Visible = _loginState;
             uscScrapListControl.Visible = _loginState;
+            pcbDidi.Visible = !_loginState;
+            lblLoginWarningBig.Visible = !_loginState;
             lblLoginWarning.Visible = !_loginState;
-
         }
         #endregion
 

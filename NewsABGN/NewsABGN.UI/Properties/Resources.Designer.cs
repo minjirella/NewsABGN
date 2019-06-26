@@ -63,6 +63,16 @@ namespace NewsABGN.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ayong {
+            get {
+                object obj = ResourceManager.GetObject("ayong", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cat_add {
             get {
                 object obj = ResourceManager.GetObject("cat_add", resourceCulture);
@@ -96,6 +106,16 @@ namespace NewsABGN.UI.Properties {
         internal static System.Drawing.Bitmap cat_search {
             get {
                 object obj = ResourceManager.GetObject("cat_search", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap didi {
+            get {
+                object obj = ResourceManager.GetObject("didi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -318,5 +318,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\ayong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\didi.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
